@@ -1,0 +1,43 @@
+<UserControl x:Class="WarehouseManagement.Ui.Views.Main.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:main="clr-namespace:WarehouseManagement.Ui.Views.Main"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.DataContext>
+        <main:MainViewModel />
+    </UserControl.DataContext>
+    <Grid>
+        <!-- Your Content -->
+        
+        <StackPanel>
+            <Label Content="put your content here" />
+            <Button Content="Test MessageBox" Height="30" Command="{Binding CommandMessageBox}" />
+            <Button Content="Test AskMessageBox" Height="30" Command="{Binding CommandAskMessageBox}" />
+            <ComboBox SelectedIndex="0">
+                <ComboBoxItem Content="Test" />
+            </ComboBox>
+            <TextBox Text="Test text" />
+            <CheckBox Content="Test" />
+            <Label Content="Dies ist ein Test"  />
+
+            <ListBox Height="60">
+                <ListBoxItem Content="ListBoxItem 1" />
+                <ListBoxItem Content="ListBoxItem 2" />
+            </ListBox>
+            <StackPanel>
+                <RadioButton Content="choose 1" />
+                <RadioButton Content="choose 2" />
+            </StackPanel>
+            <TabControl Height="50">
+                <TabItem Header="Tab 1" />
+                <TabItem Header="Tab 2" />
+            </TabControl>
+            
+            <TextBlock Text="{Binding Value1}" />
+            <TextBox Text="{Binding Value1}" />
+        </StackPanel>
+    </Grid>
+</UserControl>
