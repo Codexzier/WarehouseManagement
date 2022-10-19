@@ -1,5 +1,5 @@
 # WarehouseManagement
-Kleine Beispiel Anwendung, dass darauf Vollfunktionsfähig auf die Anforderung entwickelt wird, jedoch den Schwerpunkt auf Pflege, Dokumentation und Lösungsansätze geht.
+Die Anwendung ist ein kleines Beispiel, welches darauf zielt sich auf Pflege, Dokumentation und Lösungsansätze angeht.
 
 ### Auf meinem Blog
 Mehr zum Thema Beschreibe ich auf meinem Blog
