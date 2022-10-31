@@ -26,4 +26,14 @@
         long Id { get; set; }
         long ArticleId { get; set; }
     }
+
+    public class DatabaseConnectorNameAttribute : Attribute
+    {
+        public DatabaseConnectorNameAttribute(string name)
+        {
+            this.Name = name;
+        }
+
+        public string Name { get; }
+    }
 }

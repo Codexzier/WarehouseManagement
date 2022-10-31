@@ -18,4 +18,8 @@
     <ProjectReference Include="..\WarehouseManagement.Components\WarehouseManagement.Components.csproj" />
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy $(SolutionDir)WarehouseManagement.DatabaseSQLite\bin\Debug\net6.0\WarehouseManagement.DatabaseSQLite.dll $(SolutionDir)WarehouseManagement.Components.Test\bin\Debug\net6.0 /Y&#xD;&#xA;xcopy $(SolutionDir)WarehouseManagement.DatabaseMsSQL\bin\Debug\net6.0\WarehouseManagement.DatabaseMsSQL.dll $(SolutionDir)WarehouseManagement.Components.Test\bin\Debug\net6.0 /Y&#xD;&#xA;xcopy $(SolutionDir)WarehouseManagement.DatabasePostgreSQL\bin\Debug\net6.0\WarehouseManagement.DatabasePostgreSQL.dll $(SolutionDir)WarehouseManagement.Components.Test\bin\Debug\net6.0 /Y" />
+  </Target>
+
 </Project>

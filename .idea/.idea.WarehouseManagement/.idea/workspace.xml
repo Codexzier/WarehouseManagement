@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="20dc1fa3-8a2f-4d18-8f80-73002ef4ed3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WarehouseManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WarehouseManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehouseManagement.Components/DatabaseConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.Components/DatabaseConnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehouseManagement.DatabaseMsSQL/DatabaseConnector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.DatabaseMsSQL/DatabaseConnector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehouseManagement.DatabasePostgreSQL/DatabaseConnector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.DatabasePostgreSQL/DatabaseConnector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite/DatabaseConnector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite/DatabaseConnector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite/WarehouseManagement.DatabaseSQLite.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite/WarehouseManagement.DatabaseSQLite.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehouseManagement.SharedBasis/IDatabaseConnector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.SharedBasis/IDatabaseConnector.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +69,46 @@
       <updated>1662621018806</updated>
       <workItem from="1662621061252" duration="1307000" />
       <workItem from="1662966777006" duration="897000" />
+      <workItem from="1667209362790" duration="3534000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WarehouseManagement.Components.Test/DatabaseConnectionTest.cs</url>
+          <line>17</line>
+          <properties documentPath="C:\Source\CSharp\Wpf\WarehouseManagement\WarehouseManagement.Components.Test\DatabaseConnectionTest.cs" initialLine="17" containingFunctionPresentation="method 'ReadDlls'">
+            <startOffsets>
+              <option value="415" />
+            </startOffsets>
+            <endOffsets>
+              <option value="440" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

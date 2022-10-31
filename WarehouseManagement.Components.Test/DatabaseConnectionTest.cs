@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Linq;
 
 namespace WarehouseManagement.Components.Test
 {
@@ -16,6 +17,7 @@ namespace WarehouseManagement.Components.Test
 
             // assert
             Assert.IsNotNull(result);
+            Assert.AreEqual(3, result.Count());
         }
     }
 }

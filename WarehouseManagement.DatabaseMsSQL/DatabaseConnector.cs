@@ -2,8 +2,11 @@
 
 namespace WarehouseManagement.DatabaseMsSQL
 {
+    [DatabaseConnectorName("MS SQL")]
     public class DatabaseConnector : IDatabaseConnector
     {
+        #region interface methods
+
         public void CreateTable<TTable>()
         {
             throw new NotImplementedException();
@@ -38,5 +41,7 @@ namespace WarehouseManagement.DatabaseMsSQL
         {
             throw new NotImplementedException();
         }
+
+        #endregion
     }
 }

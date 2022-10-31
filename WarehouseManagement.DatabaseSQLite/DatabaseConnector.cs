@@ -3,6 +3,7 @@ using WarehouseManagement.SharedBasis;
 
 namespace WarehouseManagement.DatabaseSQLite
 {
+    [DatabaseConnectorName("SQLite")]
     public class DatabaseConnector : IDatabaseConnector
     {
         #region interface methods

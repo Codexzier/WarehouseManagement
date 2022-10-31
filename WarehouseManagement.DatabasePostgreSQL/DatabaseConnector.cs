@@ -2,8 +2,12 @@
 
 namespace WarehouseManagement.DatabasePostgreSQL
 {
+    [DatabaseConnectorName("PostgreSQL")]
     public class DatabaseConnector : IDatabaseConnector
     {
+        
+        #region interface methods
+                
         public void CreateTable<TTable>()
         {
             throw new NotImplementedException();
@@ -38,5 +42,7 @@ namespace WarehouseManagement.DatabasePostgreSQL
         {
             throw new NotImplementedException();
         }
+
+        #endregion
     }
 }
