@@ -10,10 +10,8 @@ namespace WarehouseManagement.Components.Test
         public void ReadDlls()
         {
             // arrange
-            var instance = new DatabaseConnection();
-
             // act
-            var result = instance.GetDatabaseConnectors();
+            var result = DatabaseConnection.GetDatabaseConnectors();
 
             // assert
             Assert.IsNotNull(result);

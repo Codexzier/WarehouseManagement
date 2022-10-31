@@ -66,8 +66,6 @@ namespace WarehouseManagement.DatabaseSQLite
             connection.Close();
         }
 
-       
-
         #endregion
     }
 }
