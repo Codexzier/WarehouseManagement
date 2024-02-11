@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20dc1fa3-8a2f-4d18-8f80-73002ef4ed3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WarehouseManagement.SharedBasis/ArticleItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarehouseManagement.SharedBasis/DatabaseConnectorNameAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarehouseManagement.SharedBasis/IArticleSubItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WarehouseManagement.Components.Test/DatabaseConnectionTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.Components.Test/DatabaseConnectionTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WarehouseManagement.Components/DatabaseConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.Components/DatabaseConnection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite/DatabaseConnector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite/DatabaseConnector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WarehouseManagement.SharedBasis/IDatabaseConnector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.SharedBasis/IDatabaseConnector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WarehouseManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WarehouseManagement/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,16 +23,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\johan\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\johan\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\johan\\AppData\\Local\\Symbols\\src"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="WarehouseManagement.Ui" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -71,6 +72,7 @@
       <workItem from="1662966777006" duration="897000" />
       <workItem from="1667209362790" duration="3534000" />
       <workItem from="1667230727021" duration="192000" />
+      <workItem from="1672865002129" duration="635000" />
     </task>
     <servers />
   </component>
