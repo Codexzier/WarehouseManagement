@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseManagement.Databas
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A8AFF8B1-E1AB-4469-BCE5-5172AC1AC3F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseManagement.DatabaseSQLite.Test", "WarehouseManagement.DatabaseSQLite.Test\WarehouseManagement.DatabaseSQLite.Test.csproj", "{35FF8840-944B-45D2-AEC9-7BF6C8FFCC49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{555C85F3-CF23-45DA-8DDB-0C6D2B0E3653}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{555C85F3-CF23-45DA-8DDB-0C6D2B0E3653}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{555C85F3-CF23-45DA-8DDB-0C6D2B0E3653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35FF8840-944B-45D2-AEC9-7BF6C8FFCC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FF8840-944B-45D2-AEC9-7BF6C8FFCC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FF8840-944B-45D2-AEC9-7BF6C8FFCC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FF8840-944B-45D2-AEC9-7BF6C8FFCC49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +62,7 @@ Global
 		{B7950720-FD1A-4196-A4FC-0FE2280B2F3F} = {A8AFF8B1-E1AB-4469-BCE5-5172AC1AC3F1}
 		{F1DD8E0E-AF25-4CEB-A6CC-6F8F6C675FEF} = {A8AFF8B1-E1AB-4469-BCE5-5172AC1AC3F1}
 		{555C85F3-CF23-45DA-8DDB-0C6D2B0E3653} = {A8AFF8B1-E1AB-4469-BCE5-5172AC1AC3F1}
+		{35FF8840-944B-45D2-AEC9-7BF6C8FFCC49} = {A8AFF8B1-E1AB-4469-BCE5-5172AC1AC3F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31493F9A-5CDD-424F-A146-979088FF36A3}

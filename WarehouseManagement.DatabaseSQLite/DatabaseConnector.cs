@@ -55,15 +55,30 @@ namespace WarehouseManagement.DatabaseSQLite
             this._database = databasePath;
         }
 
+        public DatabaseConnector()
+        {
+            this._database = $"{Environment.CurrentDirectory}//warehouse.db";
+        }
+
         #region base methods
 
         protected readonly string _database;
 
         protected void Execute(Action<SQLiteConnection> runMethod)
         {
-            var connection = new SQLiteConnection(this._database);
-            runMethod.Invoke(connection);
-            connection.Close();
+            try
+            {
+
+                var connection = new SQLiteConnection(this._database);
+                runMethod.Invoke(connection);
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                throw new SqLiteDatabaseException(
+                    $"Fail to execute sql command. Database: {this._database}", 
+                    ex);
+            }
         }
 
         #endregion

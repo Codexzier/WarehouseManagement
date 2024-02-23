@@ -5,7 +5,7 @@ namespace WarehouseManagement.Components
 {
     public class DatabaseConnection
     {
-        public static IEnumerable<string> GetDatabaseConnectors()
+        public static IEnumerable<DatabaseConnectorTypItem> GetDatabaseConnectors()
         {
             return Directory
                 .GetFiles(Environment.CurrentDirectory)
@@ -13,7 +13,14 @@ namespace WarehouseManagement.Components
                .Select(Assembly.LoadFrom)
                .SelectMany(assembly => assembly.GetExportedTypes())
                .Where(type => typeof(IDatabaseConnector).IsAssignableFrom(type))
-               .Select(type => type.Name);
+               .Select(type =>
+                {
+                    var attribute = type.GetCustomAttribute<DatabaseConnectorNameAttribute>();
+                    
+                    return new DatabaseConnectorTypItem(
+                        type,
+                        attribute.Name);
+                });
         }
     }
 }
