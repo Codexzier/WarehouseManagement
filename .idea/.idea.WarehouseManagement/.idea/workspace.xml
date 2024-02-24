@@ -11,18 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20dc1fa3-8a2f-4d18-8f80-73002ef4ed3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WarehouseManagement.Components.Test/DatabaseConnectorSQLiteTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarehouseManagement.Components.Test/readmeSQLiteAssemblies.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite.Test/DatabaseConnectorTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite.Test/GlobalUsings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite.Test/WarehouseManagement.DatabaseSQLite.Test.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarehouseManagement.SharedBasis/DatabaseConnectorTypItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WarehouseManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WarehouseManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WarehouseManagement.Components.Test/DatabaseConnectionTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.Components.Test/DatabaseConnectionTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WarehouseManagement.Components.Test/WarehouseManagement.Components.Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.Components.Test/WarehouseManagement.Components.Test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WarehouseManagement.Components/DatabaseConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.Components/DatabaseConnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehouseManagement.Components.Test/DatabaseConnectorSQLiteTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.Components.Test/DatabaseConnectorSQLiteTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite.Test/DatabaseConnectorTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite.Test/DatabaseConnectorTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite/DatabaseConnector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite/DatabaseConnector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WarehouseManagement.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehouseManagement.SharedBasis/ArticleItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseManagement.SharedBasis/ArticleItem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +107,7 @@
       <workItem from="1672865002129" duration="635000" />
       <workItem from="1707673515406" duration="25000" />
       <workItem from="1707673617111" duration="738000" />
-      <workItem from="1708702923836" duration="8773000" />
+      <workItem from="1708702923836" duration="11788000" />
     </task>
     <servers />
   </component>
@@ -137,24 +130,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/WarehouseManagement.DatabaseSQLite/DatabaseConnector.cs</url>
-          <line>54</line>
-          <properties documentPath="D:\Source\CSharp\Wpf\WarehouseManagement\WarehouseManagement.DatabaseSQLite\DatabaseConnector.cs" initialLine="54" containingFunctionPresentation="Constructor 'DatabaseConnector'">
-            <startOffsets>
-              <option value="1327" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1357" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -25,7 +25,7 @@ namespace WarehouseManagement.DatabaseSQLite
 
         public void Insert(ArticleItem articleItem)
         {
-            throw new NotImplementedException();
+            var statement = SqlHelper.CreateInsertSQL<ArticleItem>();
         }
 
         public IArticleSubItem SubItem_GetById(long id)
