@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:menu="clr-namespace:WarehouseManagement.Views.Menu"
+             x:Class="WarehouseManagement.Views.Menu.MenuView"
+             Background="Green"
+             HorizontalOptions="FillAndExpand">
+    <ContentView.BindingContext>
+        <menu:MenuViewModel />
+    </ContentView.BindingContext>
+    <ContentView.Content>
+        <VerticalStackLayout HorizontalOptions="Start" Background="{AppThemeBinding Light={StaticResource ThemeColorLightBackground}, Dark={StaticResource ThemeColorDarkBackground}}">
+            <Button Text="Content 1" Command="{Binding CommandOpenContent1}" HorizontalOptions="Center" />
+            <Button Text="Content 2" Command="{Binding CommandOpenContent2}" HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ContentView.Content>
+</ContentView>

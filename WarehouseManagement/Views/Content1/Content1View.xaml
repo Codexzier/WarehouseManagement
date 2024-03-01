@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WarehouseManagement.Views.Content1"
+             x:Class="WarehouseManagement.Views.Content1.Content1View">
+    <ContentView.Content>
+        <VerticalStackLayout>
+            
+            <Label Text="Content View one" 
+               VerticalOptions="Center"
+               HorizontalOptions="Start" />
+            
+            <Button Text="With Command" 
+                    Command="{Binding CommandTest}" 
+                    WidthRequest="150" 
+                    HorizontalOptions="Start"  />
+
+
+            <Button Text="Open Message"
+                    Command="{Binding CommandMessageBox}" 
+                    WidthRequest="150" 
+                    HorizontalOptions="Start"  />
+
+            <Label Text="{Binding MessageBoxResultText}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"/>
+
+        </VerticalStackLayout>
+    </ContentView.Content>
+</ContentView>

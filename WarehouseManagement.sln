@@ -7,17 +7,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseManagement.Compone
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseManagement.Components.Test", "WarehouseManagement.Components.Test\WarehouseManagement.Components.Test.csproj", "{BC46B11A-0506-4064-9752-3B35A9EEF9F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseManagement.SharedBasis", "WarehouseManagement.SharedBasis\WarehouseManagement.SharedBasis.csproj", "{0D40D56B-0095-4FB1-A997-38F8D397A26B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseManagement.SharedBasis", "WarehouseManagement.SharedBasis\WarehouseManagement.SharedBasis.csproj", "{0D40D56B-0095-4FB1-A997-38F8D397A26B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseManagement.DatabaseSQLite", "WarehouseManagement.DatabaseSQLite\WarehouseManagement.DatabaseSQLite.csproj", "{B7950720-FD1A-4196-A4FC-0FE2280B2F3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseManagement.DatabaseSQLite", "WarehouseManagement.DatabaseSQLite\WarehouseManagement.DatabaseSQLite.csproj", "{B7950720-FD1A-4196-A4FC-0FE2280B2F3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseManagement.DatabaseMsSQL", "WarehouseManagement.DatabaseMsSQL\WarehouseManagement.DatabaseMsSQL.csproj", "{F1DD8E0E-AF25-4CEB-A6CC-6F8F6C675FEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseManagement.DatabaseMsSQL", "WarehouseManagement.DatabaseMsSQL\WarehouseManagement.DatabaseMsSQL.csproj", "{F1DD8E0E-AF25-4CEB-A6CC-6F8F6C675FEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseManagement.DatabasePostgreSQL", "WarehouseManagement.DatabasePostgreSQL\WarehouseManagement.DatabasePostgreSQL.csproj", "{555C85F3-CF23-45DA-8DDB-0C6D2B0E3653}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseManagement.DatabasePostgreSQL", "WarehouseManagement.DatabasePostgreSQL\WarehouseManagement.DatabasePostgreSQL.csproj", "{555C85F3-CF23-45DA-8DDB-0C6D2B0E3653}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A8AFF8B1-E1AB-4469-BCE5-5172AC1AC3F1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data", "3. Data", "{A8AFF8B1-E1AB-4469-BCE5-5172AC1AC3F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseManagement.DatabaseSQLite.Test", "WarehouseManagement.DatabaseSQLite.Test\WarehouseManagement.DatabaseSQLite.Test.csproj", "{35FF8840-944B-45D2-AEC9-7BF6C8FFCC49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseManagement.DatabaseSQLite.Test", "WarehouseManagement.DatabaseSQLite.Test\WarehouseManagement.DatabaseSQLite.Test.csproj", "{35FF8840-944B-45D2-AEC9-7BF6C8FFCC49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Service", "2. Service", "{E8AF26BF-91D6-4029-93C3-C12672D40719}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Frontend", "1. Frontend", "{804DBBC7-8BF5-4A94-B421-21B950F1E837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseManagement", "WarehouseManagement\WarehouseManagement.csproj", "{22F4ADC1-65C6-4DC8-9DE1-12A88F12D400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,16 +59,25 @@ Global
 		{35FF8840-944B-45D2-AEC9-7BF6C8FFCC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35FF8840-944B-45D2-AEC9-7BF6C8FFCC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35FF8840-944B-45D2-AEC9-7BF6C8FFCC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F4ADC1-65C6-4DC8-9DE1-12A88F12D400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F4ADC1-65C6-4DC8-9DE1-12A88F12D400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F4ADC1-65C6-4DC8-9DE1-12A88F12D400}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{22F4ADC1-65C6-4DC8-9DE1-12A88F12D400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F4ADC1-65C6-4DC8-9DE1-12A88F12D400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F4ADC1-65C6-4DC8-9DE1-12A88F12D400}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{76CD8550-3296-4AF1-A93B-B4339D886736} = {E8AF26BF-91D6-4029-93C3-C12672D40719}
+		{BC46B11A-0506-4064-9752-3B35A9EEF9F0} = {E8AF26BF-91D6-4029-93C3-C12672D40719}
 		{0D40D56B-0095-4FB1-A997-38F8D397A26B} = {A8AFF8B1-E1AB-4469-BCE5-5172AC1AC3F1}
 		{B7950720-FD1A-4196-A4FC-0FE2280B2F3F} = {A8AFF8B1-E1AB-4469-BCE5-5172AC1AC3F1}
 		{F1DD8E0E-AF25-4CEB-A6CC-6F8F6C675FEF} = {A8AFF8B1-E1AB-4469-BCE5-5172AC1AC3F1}
 		{555C85F3-CF23-45DA-8DDB-0C6D2B0E3653} = {A8AFF8B1-E1AB-4469-BCE5-5172AC1AC3F1}
 		{35FF8840-944B-45D2-AEC9-7BF6C8FFCC49} = {A8AFF8B1-E1AB-4469-BCE5-5172AC1AC3F1}
+		{22F4ADC1-65C6-4DC8-9DE1-12A88F12D400} = {804DBBC7-8BF5-4A94-B421-21B950F1E837}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31493F9A-5CDD-424F-A146-979088FF36A3}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="WarehouseManagement.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:WarehouseManagement"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" >
+        <ShellContent.Style>
+            <Style TargetType="ShellContent">
+                <!-- Name der Anwendung festlegen -->
+                <Setter Property="Title" Value="Application Framework Template" />
+                <Setter Property="ToolTipProperties.Text" Value="False" />
+            </Style>
+        </ShellContent.Style>
+    </ShellContent>
+
+</Shell>
