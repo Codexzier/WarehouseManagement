@@ -10,4 +10,5 @@ Mehr zum Thema Beschreibe ich auf meinem Blog
 - [Tool Lagerverwaltung - Teil 4 - Datenbank](https://meineweltinmeinemkopf.blogspot.com/2022/10/tool-lagerverwaltung-teil-4-datenbank.html)
 - [Tool Lagerverwaltung - Teil 5 - Konzept](https://meineweltinmeinemkopf.blogspot.com/2022/11/tool-lagerverwaltung-teil-5-konzept.html)
 - [Tool Lagerverwaltung - Teil 6 - Umzug nach .NET MAUI](https://meineweltinmeinemkopf.blogspot.com/2023/03/tool-lagerverwaltung-teil-6-umzug-nach.html)
+- [Tool Lagerverwaltung - Teil 7 - Projekt Stand](https://meineweltinmeinemkopf.blogspot.com/2024/02/tool-lagerverwaltung-teil-7-projekt.html)
 - Fortsetzung folgt...
