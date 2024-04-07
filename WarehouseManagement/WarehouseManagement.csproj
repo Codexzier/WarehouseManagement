@@ -59,4 +59,9 @@
       <Folder Include="Resources\Styles\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\WarehouseManagement.Components\WarehouseManagement.Components.csproj" />
+      <ProjectReference Include="..\WarehouseManagement.SharedBasis\WarehouseManagement.SharedBasis.csproj" />
+    </ItemGroup>
+
 </Project>

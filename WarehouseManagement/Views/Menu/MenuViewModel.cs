@@ -2,37 +2,26 @@
 using System.Windows.Input;
 using WarehouseManagement.Views.Content1;
 using WarehouseManagement.Views.Content2;
+using WarehouseManagement.Views.Overview;
 
 namespace WarehouseManagement.Views.Menu
 {
     internal class MenuViewModel : BaseViewModel
     {
-        private ICommand _commandOpenContent1;
-        private ICommand _commandOpenContent2;
+        private ICommand _commandOverview;
 
         public MenuViewModel()
         {
-            this.CommandOpenContent1 = new Command(() => this.Navigation.NavigateTo<Content1View>());
-            this.CommandOpenContent2 = new Command(() => this.Navigation.NavigateTo<Content2View>());
+            this.CommandOverview = new Command(() => this.Navigation.NavigateTo<OverviewView>());
         }
 
-        public ICommand CommandOpenContent1
+        public ICommand CommandOverview
         {
-            get => this._commandOpenContent1;
+            get => this._commandOverview;
             set
             {
-                this._commandOpenContent1 = value;
-                this.OnNotifyPropertyChanged(nameof(this.CommandOpenContent1));
-            }
-        }
-
-        public ICommand CommandOpenContent2
-        {
-            get => this._commandOpenContent2;
-            set
-            {
-                this._commandOpenContent2 = value;
-                this.OnNotifyPropertyChanged(nameof(this.CommandOpenContent2));
+                this._commandOverview = value;
+                this.OnNotifyPropertyChanged(nameof(this.CommandOverview));
             }
         }
     }
